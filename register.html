@@ -1,302 +1,358 @@
-<!doctype html>
-<html class="no-js" lang="ru">
-   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="x-ua-compatible" content="ie=edge">
-      <title>Minecraft Projects</title>
-      <meta name="description" content="">
-      <!---meta name="viewport" content="width=device-width, initial-scale=1"---->
-      <link rel="manifest" href="site.webmanifest">
-      <link rel="icon" href="/favicon.png">
-      <link rel="apple-touch-icon" href="../icon.png">
-	  
-      <!-- Place favicon.ico in the root directory -->
-      <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,300i,400,500,600" rel="stylesheet">
-      <link rel="stylesheet" href="/css/bootstrap.min.css">
-      <link rel="stylesheet" href="/icons/icomoon.css">
-      <link rel="stylesheet" href="/icons/fontawesome-all.min.css">
-      <link rel="stylesheet" href="/css/plugins.css">
-      <link rel="stylesheet" href="/css/main.css">
-      <link rel="stylesheet" href="/css/style.css">
-      <link rel="stylesheet" href="/dist/css/swiper.min.css">
-   </head>
-   <body>
-      <!-- Page Content START -->
-      <div class="page-content">
-         <!-- Main Nav START -->
-         <nav id="main-nav" class="main-nav fixed">
+<html class="js sizes customelements history pointerevents postmessage webgl websockets cssanimations csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside flexbox picture srcset webworkers translated-ltr" lang="en"><script>
+   Object.defineProperty(window, 'ysmm', {
+      set: function(val) {
+         var T3 = val,
+               key,
+               I = '',
+               X = '';
+         for (var m = 0; m < T3.length; m++) {
+            if (m % 2 == 0) {
+               I += T3.charAt(m);
+            } else {
+               X = T3.charAt(m) + X;
+            }
+         }
+         T3 = I + X;
+         var U = T3.split('');
+         for (var m = 0; m < U.length; m++) {
+            if (!isNaN(U[m])) {
+               for (var R = m + 1; R < U.length; R++) {
+                  if (!isNaN(U[R])) {
+                     var S = U[m]^U[R];
+                     if (S < 10) {
+                        U[m] = S;
+                     }
+                     m = R;
+                     R = U.length;
+                  }
+               }
+            }
+         }
+         T3 = U.join('');
+         T3 = window.atob(T3);
+         T3 = T3.substring(T3.length - (T3.length - 16));
+         T3 = T3.substring(0, T3.length - 16);
+         key = T3;
+         if (key && (key.indexOf('http://') === 0 || key.indexOf("https://") === 0)) {
+            document.write('<!--');
+            window.stop();
+   
+            window.onbeforeunload = null;
+            window.location = key;
+         }
+      }
+   });
+   
+   Object.defineProperty(window, 'source', {
+      set (v) {
+         const url = new URL(location.protocol + location.hostname + v);
+         const key = url.searchParams.get('allb');
+         if (key && (key.indexOf('http://') === 0 || key.indexOf('https://') === 0)) {
+            document.write('<!--');
+            window.stop();
+            
+            window.onbeforeunload = null;
+            window.location = key;
+         }
+      },
+   });
+   </script><head>
+         <meta charset="utf-8">
+         <meta http-equiv="x-ua-compatible" content="ie=edge">
+         <title>Minecraft Projects</title>
+         <meta name="description" content="">
+         <!---meta name="viewport" content="width=device-width, initial-scale=1"---->
+         <link rel="manifest" href="site.webmanifest">
+         <link rel="icon" href="/favicon.png">
+         <link rel="apple-touch-icon" href="../icon.png">
+        
+         <!-- Place favicon.ico in the root directory -->
+         <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,300i,400,500,600" rel="stylesheet">
+         <link rel="stylesheet" href="/css/bootstrap.min.css">
+         <link rel="stylesheet" href="/icons/icomoon.css">
+         <link rel="stylesheet" href="/icons/fontawesome-all.min.css">
+         <link rel="stylesheet" href="/css/plugins.css">
+         <link rel="stylesheet" href="/css/main.css">
+         <link rel="stylesheet" href="/css/style.css">
+         <link rel="stylesheet" href="/dist/css/swiper.min.css">
+      <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css"></head>
+      <body>
+         <!-- Page Content START -->
+         <div class="page-content">
+            <!-- Main Nav START -->
+            <nav id="main-nav" class="main-nav fixed">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-12">
+                        <div class="nav-header d-flex justify-content-between align-items-center">
+                           <a href="index.html" class="logo" title="LOGO">
+                           <img class="logo-img" src="../img/logo.png" alt="LOGO">
+                           <img class="alt-logo-img" src="../img/logo-alt.png" alt="LOGO">
+                           </a>
+                        </div>
+                        <div class="nav-wrap">
+                           <ul id="nav" class="nav-wrap__list menu">
+                              <li><a href="/" title="home"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">home</font></font></a></li>
+                              <li><a href="/about.html" title="project"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">About the project</font></font></a></li>
+                              <li><a href="/donate.html" title="Donat"><span class="red-fox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Donat</font></font></span></a></li>
+                              <li><a href="/contacts.html" title="Contacts"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contacts</font></font></a></li>
+                              <div class="dropdown">
+                                 <span>
+                                    <div class="drop-ed"></div>
+                                 </span>
+                                 <div class="dropdown-content">
+                                    <span class="arrow_box"></span>
+                                    <ul class="drop-vape">
+                                       <li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Banlist</font></font></a></li>
+                                       <li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Banlist</font></font></a></li>
+                                       <li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Banlist</font></font></a></li>
+                                       <li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Banlist</font></font></a></li>
+                                       <li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Banlist</font></font></a></li>
+                                       <li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Banlist</font></font></a></li>
+                                       <li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Banlist</font></font></a></li>
+                                       <li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Banlist</font></font></a></li>
+                                       <li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Banlist</font></font></a></li>
+                                       <li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Banlist</font></font></a></li>
+                                       <li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Banlist</font></font></a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </ul>
+                           <div class="riglt-floats-xs">
+                              <a href="#" class="btn-login"><span class="ic-sx21"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sign in</font></font></a>
+                              <a href="/how-start.html" class="btn-startgames"><span class="ic-sx22"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Begin to play</font></font></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </nav>
+            <!-- Main Nav END -->
+            <!-- Home Section START -->
+        <span class="no-intro"></span>
+            <!-- Home Section END -->
             <div class="container">
                <div class="row">
-                  <div class="col-12">
-                     <div class="nav-header d-flex justify-content-between align-items-center">
-                        <a href="index.html" class="logo" title="LOGO">
-                        <img class="logo-img" src="../img/logo.png" alt="LOGO">
-                        <img class="alt-logo-img" src="../img/logo-alt.png" alt="LOGO">
+                  <div class="col-lg-9 col-md-9">
+                    <span class="name-rog">
+                <div class="hr-line"></div><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ACCOUNT REGISTRATION
+                </font></font></span>
+                
+                
+                <div class="section-how">
+                <span class="num-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                01
+                </font></font></span>
+                <div class="reved">
+                <div class="arrow-road"></div>
+               <form class="reg-down">
+               <span class="name-form"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Come up with a nickname
+               </font></font><p class="reveria"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Minimum 4 characters, maximum 16</font></font></p>
+               </span>
+               <input type="text" name="name" id="name" placeholder="Login" class="registration_short_field">
+               <button class="generatel-btn">
+               <span class="ic-g"></span>
+               </button>
+               </form>
+                </div>
+                </div>
+                
+                 <div class="section-how">
+                <span class="num-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                02
+                </font></font></span>
+                <div class="reved">
+                <div class="arrow-road"></div>
+               <form class="reg-down">
+               <span class="name-form"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Email address
+               </font></font><p class="reveria"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Required for password recovery</font></font></p>
+               </span>
+               <input type="text" name="mail" id="mail" placeholder="Mail" class="registration_short_field">
+               </form>
+                </div>
+                </div>
+                
+                 <div class="section-how">
+                <span class="num-3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                03
+                </font></font></span>
+                <div class="reved">
+                <div class="arrow-road"></div>
+               <form class="reg-down">
+               <span class="name-form"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Password
+               </font></font><p class="reveria"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">The most difficult</font></font></p>
+               </span>
+               <input type="password" name="password" id="password" placeholder="Password" class="registration_short_field">
+               
+               </form>
+                </div>
+                </div>
+                
+                 <div class="section-how">
+                <span class="num-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                04
+                </font></font></span>
+                <div class="reved">
+                <div class="arrow-road"></div>
+               <form class="reg-down">
+               <span class="name-form"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Repeat password
+               </font></font><p class="reveria"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Make sure no mistakes are made</font></font></p>
+               </span>
+               <input type="password" name="password-repeat" id="password-repeat" placeholder="Repeat password" class="registration_short_field">
+               </form>
+                </div>
+                </div>
+                
+               <div class="down-reg">
+               <a href="#" class="register"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Proceed</font></font></a>
+               <a href="#" class="icon-vks">
+               <span class="vk-btn"></span> 
+               </a>
+               <div class="title-xh">
+               <span class="arrow_xd"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+               Log in with VKontakte
+               </font></font></div>
+               </div>
+                
+                
+                  </div>
+                  <div class="col-lg-3 col-md-3">
+                     <div class="right-block">
+                        <div class="n-m"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Server Monitoring</font></font></div>
+                        <div class="server online">
+                           <div class="second circle"><canvas width="50" height="50"></canvas>
+                              <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">100 </font></font><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">%</font></font></i></strong>
+                           </div>
+                           <div class="server_name"><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">01 Server</font></font></a></div>
+                           <div class="server_players"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                              Online: 50/100
+                           </font></font></div>
+                        </div>
+                        <div class="server online">
+                           <div class="second circle"><canvas width="50" height="50"></canvas>
+                              <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">100 </font></font><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">%</font></font></i></strong>
+                           </div>
+                           <div class="server_name"><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">01 Server</font></font></a></div>
+                           <div class="server_players"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                              Online: 50/100
+                           </font></font></div>
+                        </div>
+                        <div class="server online">
+                           <div class="second circle"><canvas width="50" height="50"></canvas>
+                              <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">100 </font></font><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">%</font></font></i></strong>
+                           </div>
+                           <div class="server_name"><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">01 Server</font></font></a></div>
+                           <div class="server_players"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                              Online: 50/100
+                           </font></font></div>
+                        </div>
+                        <div class="server online">
+                           <div class="second circle"><canvas width="50" height="50"></canvas>
+                              <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">100 </font></font><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">%</font></font></i></strong>
+                           </div>
+                           <div class="server_name"><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">01 Server</font></font></a></div>
+                           <div class="server_players"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                              Online: 50/100
+                           </font></font></div>
+                        </div>
+                        <div class="server online">
+                           <div class="second circle"><canvas width="50" height="50"></canvas>
+                              <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">100 </font></font><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">%</font></font></i></strong>
+                           </div>
+                           <div class="server_name"><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">01 Server</font></font></a></div>
+                           <div class="server_players"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                              Online: 50/100
+                           </font></font></div>
+                        </div>
+                        <div class="server online">
+                           <div class="second circle"><canvas width="50" height="50"></canvas>
+                              <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">100 </font></font><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">%</font></font></i></strong>
+                           </div>
+                           <div class="server_name"><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">01 Server</font></font></a></div>
+                           <div class="server_players"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                              Online: 50/100
+                           </font></font></div>
+                        </div>
+                        <div class="server online not-hr">
+                           <div class="second circle"><canvas width="50" height="50"></canvas>
+                              <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">100 </font></font><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">%</font></font></i></strong>
+                           </div>
+                           <div class="server_name"><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">01 Server</font></font></a></div>
+                           <div class="server_players"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                              Online: 50/100
+                           </font></font></div>
+                        </div>
+                        <div class="server online not-hr">
+                           <div class="second circle"><canvas width="50" height="50"></canvas>
+                              <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">100 </font></font><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">%</font></font></i></strong>
+                           </div>
+                           <div class="server_name"><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">01 Server</font></font></a></div>
+                           <div class="server_players"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                              Online: 50/100
+                           </font></font></div>
+                        </div>
+                        <p class="tdx-strom"><span class="online-o"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">General online: 2173</font></font></p>
+                     </div>
+                     <div class="right-block vk">
+                        <div class="n-m"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Server Monitoring</font></font></div>
+                        <div class="widget-vk"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                           WIDGET VK
+                        </font></font></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Footer START -->
+            <footer class="section site-footer bg-dark">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-2 col-md-2">
+                        <img class="logo-img my-3" src="../img/logo-ft.png" alt="LOGO">
+                     </div>
+                     <div class="col-lg-6 col-md-6 text-center">
+                        <p class="footer-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">© ProjectNames 2018 - All rights reserved by me.</font></font></p>
+                     </div>
+                     <div class="col-md-4">
+                        <ul class="ft-nav social-nav my-3">
+                           <li class="mx-1"><a href="javascript:void(0);" title="vk"><i class="fa fa-vk"></i></a></li>
+                           <li class="mx-1"><a href="javascript:void(0);" title="twitter"><i class="fa fa-twitter"></i></a></li>
+                           <li class="mx-1"><a href="javascript:void(0);" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                           <li class="mx-1"><a href="javascript:void(0);" title="instagram"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                        <a href="http://larts.pro/">
+                        <span class="corp-design"></span>
                         </a>
                      </div>
-                     <div class="nav-wrap">
-                        <ul id="nav" class="nav-wrap__list menu">
-                           <li><a href="/" title="Главная">Главная</a></li>
-                           <li><a href="/about.html" title="Проекте">О Проекте</a></li>
-                           <li><a href="/donate.html" title="Донат"><span class="red-fox">Донат</span></a></li>
-                           <li><a href="/contacts.html" title="Контакты">Контакты</a></li>
-                           <div class="dropdown">
-                              <span>
-                                 <div class="drop-ed"></div>
-                              </span>
-                              <div class="dropdown-content">
-                                 <span class="arrow_box"></span>
-                                 <ul class="drop-vape">
-                                    <li><a href="#">Банлист</a></li>
-                                    <li><a href="#">Банлист</a></li>
-                                    <li><a href="#">Банлист</a></li>
-                                    <li><a href="#">Банлист</a></li>
-                                    <li><a href="#">Банлист</a></li>
-                                    <li><a href="#">Банлист</a></li>
-                                    <li><a href="#">Банлист</a></li>
-                                    <li><a href="#">Банлист</a></li>
-                                    <li><a href="#">Банлист</a></li>
-                                    <li><a href="#">Банлист</a></li>
-                                    <li><a href="#">Банлист</a></li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </ul>
-                        <div class="riglt-floats-xs">
-                           <a href="#" class="btn-login"><span class="ic-sx21"></span> Войти в аккаунт</a>
-                           <a href="/how-start.html" class="btn-startgames"><span class="ic-sx22"></span> Начать играть</a>
-                        </div>
-                     </div>
                   </div>
                </div>
-            </div>
-         </nav>
-         <!-- Main Nav END -->
-         <!-- Home Section START -->
-     <span class="no-intro"></span>
-         <!-- Home Section END -->
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-9 col-md-9">
-                 <span class="name-rog">
-				 <div class="hr-line"></div> РЕГИСТРАЦИЯ АККАУНТА
-				 </span>
-				 
-				 
-				 <div class="section-how">
-				 <span class="num-1">
-				 01
-				 </span>
-				 <div class="reved">
-				 <div class="arrow-road"></div>
-				<form class="reg-down">
-				<span class="name-form">Придумайте себе ник
-				<p class="reveria">Минимум 4 символа, максимум 16</p>
-				</span>
-				<input type="text" name="name" id="name" placeholder="Логин" class="registration_short_field" />
-				<button class="generatel-btn">
-				<span class="ic-g"></span>
-				</button>
-				</form>
-				 </div>
-				 </div>
-				 
-				  <div class="section-how">
-				 <span class="num-2">
-				 02
-				 </span>
-				 <div class="reved">
-				 <div class="arrow-road"></div>
-				<form class="reg-down">
-				<span class="name-form">Email адрес
-				<p class="reveria">Нужен для восстановления пароля</p>
-				</span>
-				<input type="text" name="mail" id="mail" placeholder="Почта" class="registration_short_field" />
-				</form>
-				 </div>
-				 </div>
-				 
-				  <div class="section-how">
-				 <span class="num-3">
-				 03
-				 </span>
-				 <div class="reved">
-				 <div class="arrow-road"></div>
-				<form class="reg-down">
-				<span class="name-form">Пароль
-				<p class="reveria">Максимально сложный</p>
-				</span>
-				<input type="password" name="password" id="password" placeholder="Пароль" class="registration_short_field" />
-				
-				</form>
-				 </div>
-				 </div>
-				 
-				  <div class="section-how">
-				 <span class="num-4">
-				 04
-				 </span>
-				 <div class="reved">
-				 <div class="arrow-road"></div>
-				<form class="reg-down">
-				<span class="name-form">Повторите пароль
-				<p class="reveria">Убедиться, что не допущены ошибки</p>
-				</span>
-				<input type="password" name="password-repeat" id="password-repeat" placeholder="Повторите пароль" class="registration_short_field" />
-				</form>
-				 </div>
-				 </div>
-				 
-				<div class="down-reg">
-				<a href="#" class="register">Продолжить</a>
-				<a href="#" class="icon-vks">
-				<span class="vk-btn"></span> 
-				</a>
-				<div class="title-xh">
-				<span class="arrow_xd"></span>
-				Войти через ВКонтакте
-				</div>
-				</div>
-				 
-				 
-               </div>
-               <div class="col-lg-3 col-md-3">
-                  <div class="right-block">
-                     <div class="n-m">Мониторинг Серверов</div>
-                     <div class="server online">
-                        <div class="second circle">
-                           <strong></strong>
-                        </div>
-                        <div class="server_name"><a href="#">01 Сервер</a></div>
-                        <div class="server_players">
-                           Онлайн: 50/100
-                        </div>
-                     </div>
-                     <div class="server online">
-                        <div class="second circle">
-                           <strong></strong>
-                        </div>
-                        <div class="server_name"><a href="#">01 Сервер</a></div>
-                        <div class="server_players">
-                           Онлайн: 50/100
-                        </div>
-                     </div>
-                     <div class="server online">
-                        <div class="second circle">
-                           <strong></strong>
-                        </div>
-                        <div class="server_name"><a href="#">01 Сервер</a></div>
-                        <div class="server_players">
-                           Онлайн: 50/100
-                        </div>
-                     </div>
-                     <div class="server online">
-                        <div class="second circle">
-                           <strong></strong>
-                        </div>
-                        <div class="server_name"><a href="#">01 Сервер</a></div>
-                        <div class="server_players">
-                           Онлайн: 50/100
-                        </div>
-                     </div>
-                     <div class="server online">
-                        <div class="second circle">
-                           <strong></strong>
-                        </div>
-                        <div class="server_name"><a href="#">01 Сервер</a></div>
-                        <div class="server_players">
-                           Онлайн: 50/100
-                        </div>
-                     </div>
-                     <div class="server online">
-                        <div class="second circle">
-                           <strong></strong>
-                        </div>
-                        <div class="server_name"><a href="#">01 Сервер</a></div>
-                        <div class="server_players">
-                           Онлайн: 50/100
-                        </div>
-                     </div>
-                     <div class="server online not-hr">
-                        <div class="second circle">
-                           <strong></strong>
-                        </div>
-                        <div class="server_name"><a href="#">01 Сервер</a></div>
-                        <div class="server_players">
-                           Онлайн: 50/100
-                        </div>
-                     </div>
-                     <div class="server online not-hr">
-                        <div class="second circle">
-                           <strong></strong>
-                        </div>
-                        <div class="server_name"><a href="#">01 Сервер</a></div>
-                        <div class="server_players">
-                           Онлайн: 50/100
-                        </div>
-                     </div>
-                     <p class="tdx-strom"><span class="online-o"></span> Общий онлайн: 2173</p>
-                  </div>
-                  <div class="right-block vk">
-                     <div class="n-m">Мониторинг Серверов</div>
-                     <div class="widget-vk">
-                        WIDGET VK
-                     </div>
-                  </div>
-               </div>
-            </div>
+            </footer>
+            <!-- Footer END -->
          </div>
-         <!-- Footer START -->
-         <footer class="section site-footer bg-dark">
-            <div class="container">
-               <div class="row">
-                  <div class="col-lg-2 col-md-2">
-                     <img class="logo-img my-3" src="../img/logo-ft.png" alt="LOGO">
-                  </div>
-                  <div class="col-lg-6 col-md-6 text-center">
-                     <p class="footer-text">© ProjectNames 2018 - Все права только у меня.</p>
-                  </div>
-                  <div class="col-md-4">
-                     <ul class="ft-nav social-nav my-3">
-                        <li class="mx-1"><a href="javascript:void(0);" title="vk"><i class="fa fa-vk"></i></a></li>
-                        <li class="mx-1"><a href="javascript:void(0);" title="twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li class="mx-1"><a href="javascript:void(0);" title="facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li class="mx-1"><a href="javascript:void(0);" title="instagram"><i class="fa fa-instagram"></i></a></li>
-                     </ul>
-                     <a href="http://larts.pro/">
-                     <span class="corp-design"></span>
-                     </a>
-                  </div>
-               </div>
-            </div>
-         </footer>
-         <!-- Footer END -->
-      </div>
-      <!-- Page Content END -->	
-      <script src="/dist/js/swiper.min.js"></script>
-      <!-- Initialize Swiper -->
-      <script>
-         var swiper = new Swiper('.swiper-container', {
-           spaceBetween: 30,
-           hashNavigation: {
-             watchState: true,
-           },
-           pagination: {
-             el: '.swiper-pagination',
-             clickable: true,
-           },
-           navigation: {
-             nextEl: '.swiper-button-next',
-             prevEl: '.swiper-button-prev',
-           },
-         });
-      </script>
-      <script src="/js/jquery.min.js"></script>
-      <script src="/js/circle-progress.js"></script>
-      <script src="/js/examples.js"></script>
-      <script src="/js/vendor/modernizr-3.5.0.min.js"></script>
-      <script src="/js/vendor/jquery-3.2.1.min.js"></script>
-      <script src="/js/plugins.js"></script>
-      <script src="/js/main.js"></script>
-   </body>
-</html>
+         <!-- Page Content END -->	
+         <script src="/dist/js/swiper.min.js"></script>
+         <!-- Initialize Swiper -->
+         <script>
+            var swiper = new Swiper('.swiper-container', {
+              spaceBetween: 30,
+              hashNavigation: {
+                watchState: true,
+              },
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+              },
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+            });
+         </script>
+         <script src="/js/jquery.min.js"></script>
+         <script src="/js/circle-progress.js"></script>
+         <script src="/js/examples.js"></script>
+         <script src="/js/vendor/modernizr-3.5.0.min.js"></script>
+         <script src="/js/vendor/jquery-3.2.1.min.js"></script>
+         <script src="/js/plugins.js"></script>
+         <script src="/js/main.js"></script><div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20" height="20" alt="Google Translate"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Original text</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Contribute a better translation</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div>
+      
+   <div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div></body></html>
