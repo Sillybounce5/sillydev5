@@ -16,7 +16,9 @@
      width: 110px;
      height: 720px;
    }
-   
+   .text {
+    border-radius: 25px;color: white !important;justify-content: start;text-align: left !important;border-style: hidden;padding-left: 80px;padding-right: 80px;
+   }
    .navbar-no-shadow-container {
      z-index: 5;
      width: 100%;

@@ -71,6 +71,10 @@ body {
 	background-size: cover;
 	-o-background-size: cover;
 }
+
+.text {
+  border-radius: 25px;color: white !important;justify-content: start;text-align: left !important;border-style: hidden;padding-left: 80px;padding-right: 80px;
+ }
 /* The dropdown container */
 .dropdown {
   float: left;
