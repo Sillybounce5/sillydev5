@@ -125,7 +125,7 @@
 		<!-- Brand -->
 		<a href="/">
 			<img class="img-responsive logo"
-				src="/logo.png"
+				src="https://pbs.twimg.com/profile_images/1538978204232429571/EHMpmfxf_400x400.png"
 				></a><a class="navbar-brand"
 				href="/">            ⠀SillyXbox5</a>
 			<!-- Toggler/collapsibe Button -->
@@ -136,114 +136,17 @@
 			<!-- Navbar links -->
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item" id="holder1"><a class="navbar-brand" href="/#Textures">Texture Packs</a></li>
-					<li class="nav-item" id="holder2"><a class="navbar-brand" href="/#Mods">Mods</a></li>
-          <li class="nav-item" id="holder3"><a class="navbar-brand" href="https://twitter.com/SillyTweet5" target="_blank">Twitter</a></li>
-          <li class="nav-item" id="holder5"><a class="navbar-brand" href="/coding">Coding</a></li>
-          <li class="nav-item" id="holder5"><a class="navbar-brand" href="/games">Games</a></li>
-        
+					<li class="nav-item" id="holder1"><a class="navbar-brand" href="/#Textures">Menu Item</a></li>   
 				</ul>
 			</div>
 		</nav>
     <div class="jumbotron"
 					style="color: white !important; background-color: transparent !important; text-align: center !important; padding-bottom: 0px !important; justify-content: center;">
-					<h1><br>How To Make MCPE Addons<br><br></h1>
+					<h1><br>SillyDev5<br><br></h1>
 				</div>
 <div style="color: white !important;justify-content: start;text-align: left !important;border-style: hidden;padding-left: 80px;padding-right: 80px;">
-<p>In this tutorial, you will learn the following:<br></p>
-<ul style="list-style-type: circle;">
-  <li>
-    The file structure used by Minecraft Add-Ons.
-  </li>
-  <li>
-    Software used for editing JSON files.
-  </li>
-  <li>
-    Extensions that are available to help with Add-On development.
-  </li>
-  <li>
-    How a resource pack is created.
-  </li>
-</ul>
-<h2>Resource Packs</h2>
-<p>In this section, you will start by creating a folder called My_RESOURCE_Pack. Well, actually you don't have to call it that. In fact, you can name this folder anything you want, but the other folders have to be named exactly like this tutorial says so that Minecraft knows where to look.<br><p>
-<p>To load a resource pack into Minecraft, a manifest file will need to be created. The manifest file is a JSON file that contains the following information:</p>
-<ul>
-<li><strong>Description</strong>: In-game description of what the resource pack does.</li>
-<li><strong>Name</strong>: In-game name of the resource pack.</li>
-<li><strong>UUID</strong>: Universally Unique Identifier.</li>
-<li><strong>Version</strong>: Version of the resource pack.</li>
-<li><strong>Minimum Engine Version</strong>: Required version of Minecraft that this pack will work in.</li>
-</ul>
-<p>Minecraft will parse the information from the manifest file and display it in the Add-On section of the game. Inside the file, the information will be split into two separate sections: header and modules. The header section will contain the overall information for the pack, and the modules section will contain the dedicated packages information.</p>
-<p>In the folder you just created paste this code:</p>
-<pre>
-  <code style="border: 1px solid #999;display: block;padding: 20px;background-color: #eee;color: black !important;justify-content: start;text-align: left !important;border-style: hidden;padding-left: 80px;padding-right: 80px;">
-{
- "format_version": 2,
- "header": {
-   "description": "My dirt resource pack Add-On!",
-   "name": "My Resource Pack",
-   "uuid":"",
-   "version": [1, 0, 0],
-   "min_engine_version": [1, 16, 0]
-  },
- "modules": [
-   {
-     "description": "My First Add-On!",
-     "type": "resources",
-     "uuid": "",
-     "version": [1, 0, 0]
-   }
- ]
-}
-  </code>
-</pre>
-<h3>UUID</h3>
-<p>Universally Unique Identifier, or UUID for short, is a unique number used to identify different software. For Minecraft, the UUID is used to define a specific pack and to prevent any duplicate software from causing issues. For the header and modules, there will need to be two different UUID numbers entered in each of the "uuid" fields between the quotes. You can get UUIDs from an online UUID Generator such as <a href="https://www.uuidgenerator.net/">https://www.uuidgenerator.net/</a>.</p>
-<p>Copy and paste a UUID into the header section. The UUID will need to be pasted in the "uuid":"" field between the quotation ("") marks in order to be read correctly.
-Refresh the webpage to generate a new UUID for use in the Modules section.
-Copy and paste the new UUID into the modules section in the "uuid" field between the quotation marks.
-Save the manifest.json file.</p>
-<h3>Changing the dirt block</h3>
-<p>With the manifest file completed, you can now start adding custom content to Minecraft. Let’s get started by applying a new texture to the vanilla dirt block. The first part of the process involves creating a folder structure to hold the texture.</p>
-<ol>
-<li>In File Explorer, in the <strong>My_RESOURCE_Pack</strong> folder, create a folder and name it <strong>textures</strong>.</li>
-<li>Double-click the <strong>textures</strong> folder to open it.</li>
-<li>Inside the textures folder, create a folder and name it <strong>blocks</strong>.</li>
-<li>Double-click the <strong>blocks</strong> folder to open it.</li>
-</ol>
-<h4>Creating the texture</h4>
-<p>Now that the folder structure is created, you can place your custom textures there. This little, green square is an example of the type of file created by the following steps.</p>
-<img src="https://docs.microsoft.com/en-us/minecraft/creator/documents/media/resourcepack/dirt.png">
-<ol>
-<li>Open up an image editor such as MS Paint.</li>
-<li>Go to the <strong>File</strong> menu and select <strong>Properties</strong>.</li>
-<li>Set the <strong>Width</strong> and <strong>Height</strong> to <strong>16 pixels</strong> each.</li>
-<li>Click <strong>OK</strong>.</li>
-</ol>
-<p>You can now design a pattern or any artwork in the editor. To make the green square, a simple fill color was added.</p>
-<ol>
-<li>When you're done editing your texture, go to the <strong>File</strong> menu and select <strong>Save As</strong>.</li>
-<li>Choose the <strong>PNG picture</strong> option.</li>
-<li>In the <strong>Save As</strong> dialog box, navigate to the <strong>blocks</strong> folder you created.</li>
-<li>Save the file as <strong>dirt.png</strong>.</li>
-</ol>
-<h3>Testing the pack</h3>
-<p>Now that the pack has both a manifest file and a texture file, you can launch Minecraft and test your new resource Add-On.</p>
-<p>Your custom texture will be used on every dirt.png block in the world, but it will not be used on blocks of dirt with grass on them because those block have a different name.</p>
-<ol>
-<li>Launch Minecraft and select <strong>Play</strong>.</li>
-<li>Select <strong>Create New World</strong>.</li>
-<li>Under <strong>Settings</strong>, scroll down to the <strong>Add-Ons</strong> section.</li>
-<li>Click on <strong>Resource Packs</strong> to see all available packs.</li>
-<li>Click the <strong>MY PACKS</strong> drop-down to open it.</li>
-<li>Select <strong>My RESOURCE Pack</strong> and click <strong>Activate</strong> to add the resource pack to the world.</li>
-<li>Click <strong>Create</strong> to create your world.
-<img src="https://docs.microsoft.com/en-us/minecraft/creator/documents/media/resourcepack/addonsettings.png" alt="Image of Minecraft's Settings page with the Add-On menu selected for resource packs. There is a red rectangle outlining My Resource Pack and the Activate button." width="1100" height="900" data-linktype="relative-path"></li>
-</ol>
 
-</div>
+
 
 <script>
 var myVar;
