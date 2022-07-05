@@ -77,15 +77,6 @@ body {
 a:hover { 
 	text-decoration: none;
 	color: rgb(255, 238, 0);
-}
-
-
-.emojiline {
-	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/heart.png");
-	background-position: 0 1.06em;
-	background-size: 15px 9px;
-}
-.under a:before{
 	content: "";
     position: absolute;
     top: 100%;
@@ -95,6 +86,23 @@ a:hover {
     border-radius: 2px;
     background: linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
 }
+
+
+.emojiline {
+	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/heart.png");
+	background-position: 0 1.06em;
+	background-size: 15px 9px;
+}
+/*.under a:before{
+	content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    height: 3px;
+    border-radius: 2px;
+    background: linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
+}*/
 *, :after, :before{
 	box-sizing: border-box;
 }
