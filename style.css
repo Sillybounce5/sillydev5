@@ -72,10 +72,17 @@ body {
 	background-size: cover;
 	-o-background-size: cover;
 }
-a {
-	  color: none;
-	  text-decoration: none;
-}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.emojiline {
+	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/heart.png");
+	background-position: 0 1.06em;
+	background-size: 15px 9px;
+  }
 .text {
   border-radius: 1px;
   border-color: lightgreen;
