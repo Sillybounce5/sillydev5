@@ -99,7 +99,22 @@ code {
 	justify-content: start;
 	text-align: left !important;
 }
-
+pre[class*="language-"] {
+	position: relative;
+	margin: 5px 0 ;
+	padding: 1.75rem 0 1.75rem 1rem;
+  
+	/* more stuff */
+  }
+  
+  button{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+  
+	/* more stuff */
+  }
+  
 .emojiline {
 	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/heart.png");
 	background-position: 0 1.06em;
