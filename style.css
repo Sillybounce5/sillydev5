@@ -130,13 +130,13 @@ code {
 	padding-right: 80px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1080px) {
 	.text {
 	  font-size: 1.25vw;
 	}
   }
   
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 500px) {
 	.text {
 	  font-size: 3vw;
 	}
