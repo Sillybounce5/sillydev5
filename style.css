@@ -73,7 +73,8 @@ body {
 }
 
 .text {
-  border-radius: 25px;color: white !important;justify-content: start;text-align: left !important;border-style: hidden;padding-left: 80px;padding-right: 80px;
+  border:1px solid lightgreen;border-radius: 25px;
+  color: white !important;justify-content: start;text-align: left !important;border-style: hidden;padding-left: 80px;padding-right: 80px;
  }
 /* The dropdown container */
 .dropdown {
