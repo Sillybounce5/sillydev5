@@ -93,9 +93,7 @@ a:active {
 
 code {
 	font-family: 'Courier New', Courier, monospace !important;
-	border-style: inset;
-	border-width: 1px;
-	border-color: #9abfe9;
+	color: gray;
 	justify-content: start;
 	text-align: left !important;
 }
