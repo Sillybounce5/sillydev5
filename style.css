@@ -73,7 +73,10 @@ body {
 }
 
 .text {
-  border:1px solid lightgreen;border-radius: 25px;
+  border-radius: 1px;
+  border-color: lightgreen;
+  border-style: solid;
+  border-radius: 25px;
   color: white !important;justify-content: start;text-align: left !important;border-style: hidden;padding-left: 80px;padding-right: 80px;
  }
 /* The dropdown container */
