@@ -76,7 +76,7 @@ body {
 a:link { text-decoration: none; color: none;}
 a:visited { text-decoration: none; color: none;}
 a:hover { 
-	text-decoration: none; 
+	/*text-decoration: none; */
 	color: rgb(255, 238, 0);
 	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/heart.png");
 	background-position: 0 1.06em;
