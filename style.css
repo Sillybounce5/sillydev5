@@ -1,7 +1,8 @@
 /* Style buttons */
 .btn {
   background-color: DodgerBlue;
-  border: 1em;
+  border: 1em ;
+  border-radius: 5px;
   color: white;
   padding: 12px 30px;
   cursor: pointer;
