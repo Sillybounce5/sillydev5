@@ -92,10 +92,12 @@ a:active {
 }
 
 code {
-	font-family: Consolas, monospace;
+	font-family: 'Courier New', Courier, monospace !important;
 	border-style: inset;
 	border-width: 1px;
 	border-color: #9abfe9;
+	justify-content: start;
+	text-align: left !important;
 }
 
 .emojiline {
