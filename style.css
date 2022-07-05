@@ -75,7 +75,7 @@ body {
 
 
 a:hover { 
-	text-decoration: none;
+	text-decoration: underline;
 	color: #a1a1a1;
 }
 a:link {
@@ -84,7 +84,7 @@ a:link {
 }
 a:visited {
 	text-decoration: none;
-	color: #fff;
+	color: #dd99ff;
 }
 a:active {
 	text-decoration: none;
