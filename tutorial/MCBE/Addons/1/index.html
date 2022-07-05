@@ -147,6 +147,28 @@
 <h2>Setting Up</h2>
 <p>Using a file explorer create a folder with the name of the addon you are planning to create, and inside that folder create 2 folders, {Addon Name}_Res & {Addon Name}_Beh.</p>
 <img src="/img/Folder_1.png">
+<br>
+<p>Inside the Res folder create a folder called 'manifest.json', JSON files are what minecraft uses for behaviours, loot tables, 3D Models and more.</p>
+<p>Inside manifest.json paste:</p>
+<code>{
+    "format_version": 1,
+    "header": {
+        "description": "Example vanilla resource pack",
+        "name": "Vanilla Resource Pack",
+        "uuid": "66c6e9a8-3093-462a-9c36-dbb052165822",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 2, 6],
+        "vanilla": [1, 12, 0]
+    },
+    "modules": [
+        {
+            "description": "Example vanilla resource pack",
+            "type": "resources",
+            "uuid": "743f6949-53be-44b6-b326-398005028819",
+            "version": [1, 0, 0]
+        }
+    ]
+}</code>
 </div>
 <script>
 var myVar;
