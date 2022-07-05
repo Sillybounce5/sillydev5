@@ -74,12 +74,13 @@ body {
 }
 
 
-a { 
-	/*text-decoration: none; */
+a:hover { 
+	text-decoration: none;
 	color: rgb(255, 238, 0);
-	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/heart.png");
-	background-position: 0 1.06em;
-	background-size: 15px 9px;
+	background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/heart.png") bottom repeat-x;
+	/*background-position: 0 1.06em;
+	background-size: 15px 9px;*/
+	padding-bottom: 5px;
 }
 
 
