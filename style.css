@@ -128,8 +128,19 @@ code {
 	text-align: left !important;
 	padding-left: 80px;
 	padding-right: 80px;
-	font-size: 3vw;
 }
+
+@media only screen and (max-width: 768px) {
+	.text {
+	  font-size: 1.25vw;
+	}
+  }
+  
+  @media only screen and (max-width: 320px) {
+	.text {
+	  font-size: 3vw;
+	}
+  }
 
 text {
 	border-style: hidden;
