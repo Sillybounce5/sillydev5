@@ -72,7 +72,10 @@ body {
 	background-size: cover;
 	-o-background-size: cover;
 }
-
+a {
+	  color: none;
+	  text-decoration: none;
+}
 .text {
   border-radius: 1px;
   border-color: lightgreen;
