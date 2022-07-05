@@ -76,24 +76,19 @@ body {
 
 a:hover { 
 	text-decoration: none;
-	color: none;
+	color: #a1a1a1;
 }
 a:link {
 	text-decoration: none;
-	color: none;
+	color: #fff;
 }
 a:visited {
 	text-decoration: none;
-	color: none;
+	color: #fff;
 }
 a:active {
 	text-decoration: none;
-	color: none;
-}
-
-.under a:hover{
-	text-decoration: none;
-	color: linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
+	color: #717171;
 }
 
 
