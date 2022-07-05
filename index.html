@@ -45,6 +45,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
 	</script>
 	<!-- jQuery Modal -->
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js">
 	</script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
@@ -121,25 +122,17 @@
 		<p>You have not selected any pack!</p>
 		<a href="#" rel="modal:close">Close</a>
 	</div>
-	<nav id="navbar" class="navbar navbar-expand-md text-light navbar-dark sticky" style="background-color: black">
-		<!-- Brand -->
-		<a href="/">
-			<img class="img-responsive logo"
-				src="https://pbs.twimg.com/profile_images/1538978204232429571/EHMpmfxf_400x400.png"
-				></a><a class="navbar-brand"
-				href="/">            ⠀SillyDev5</a>
-			<!-- Toggler/collapsibe Button -->
-			<button class="navbar-toggler" type="button" data-toggle="collapse"
-				data-target="#collapsibleNavbar">
-			<span class="navbar-toggler-icon"></span>
-			</button>
-			<!-- Navbar links -->
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item" id="holder1"><a class="navbar-brand" href="/#Textures">Menu Item</a></li>   
-				</ul>
-			</div>
-		</nav>
+	<!--Navigation bar-->
+	<div id="nav-placeholder">
+
+	</div>
+
+	<script>
+	$(function(){
+	$("#nav-placeholder").load("/navbar.html");
+	});
+	</script>
+	<!--end of Navigation bar-->
     <div class="jumbotron"
 					style="color: white !important; background-color: transparent !important; text-align: center !important; padding-bottom: 0px !important; justify-content: center;">
 					<h1><br>SillyDev5<br><br></h1>
