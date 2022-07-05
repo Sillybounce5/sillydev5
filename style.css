@@ -85,7 +85,7 @@ a:hover {
 	background-position: 0 1.06em;
 	background-size: 15px 9px;
 }
-a:hover .under{
+.under a:hover{
 	content: "";
     position: absolute;
     bottom: 100%;
