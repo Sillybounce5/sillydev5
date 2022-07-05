@@ -91,6 +91,12 @@ a:active {
 	color: #717171;
 }
 
+code {
+	font-family: Consolas, monospace;
+	border-style: inset;
+	border-width: 1px;
+	border-color: #9abfe9;
+}
 
 .emojiline {
 	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/heart.png");
@@ -114,6 +120,16 @@ a:active {
  }
 
 .text {
+	border-style: hidden;
+	border-radius: 25px;
+	color: white !important;
+	justify-content: start;
+	text-align: left !important;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+text {
 	border-style: hidden;
 	border-radius: 25px;
 	color: white !important;
