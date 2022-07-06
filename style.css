@@ -98,7 +98,19 @@ code {
 	text-align: left !important;
 }
 
+@media only screen and (max-width: 1080px) {
+	.Title {
+	  font-size: 2.5vw;
+	}
+  }
   
+  @media only screen and (max-width: 500px) {
+	.Title {
+	  font-size: 6vw;
+	}
+  }
+
+
 .emojiline {
 	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/heart.png");
 	background-position: 0 1.06em;
