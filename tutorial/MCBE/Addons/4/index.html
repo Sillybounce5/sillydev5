@@ -49,7 +49,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js">
 	</script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-	<title>SillyDev5</title>
+	<title>Minecraft Addons Tutorial</title>
 	<link rel="stylesheet" href="/style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -136,23 +136,16 @@
 	<div class="Title">
     	<div class="jumbotron"
 					style="color: white !important; background-color: transparent !important; text-align: center !important; padding-bottom: 0px !important; justify-content: center;">
-					<h1><br>Creating a custom function.<br><br></h1>
+					<h1><br>Exporting Addons<br><br></h1>
 		</div>
 	</div>
 <div class="text">
-<h2>What are custom Functions?</h2>
-<p>Custom functions are lists of commands for the game to run and are run through <strong>/function {Function}</strong></p>
-<img src="/img/MCBE/Addons/function.jpg" width="80%">
-<h2>How to make a custom function</h2>
-<p>To make a custom function head into your BEH folder and create a new folder called <strong>functions</strong> and in this folder create a new file called <strong>{Function}.mcfunction</strong></p>
-<p>Inside this file you can list the commands that you want to be executed.</p>
-<p>For example:</p>
-<code>
-	/kill @e [type=villager, c=1]<br>
-	/say Killed the nearest villager!
-</code>
-<a href="../3/">Next Page: Texture Packs</a>
-<br><br>
+<h2>How to export addons</h2>
+<p>Exporting addons is a simple process: Compress the RES and BEH folders into one zip file, and rename the zip file to <strong>{Addon Name}.mcaddon</strong></p>
+<h2>How to import addons to Minecraft</h2>
+<p>Importing the addons is usually as simple as running the file, but in some cases you may have to manually import them, this requires compressing the contents (not the folders themselves) for the RES and BEH folders individually, renaming the zip files to <strong>{Addon Name}BEH/RES.mcpack</strong>, and moving the files to <strong>{Minecraft Location}/resource_packs</strong> or <strong>{Minecraft Location}/behavior_packs</strong></p>
+<a href="../4/">Next Page: Exporting Addons</a>
+
 </div>
 <script>
 var myVar;
