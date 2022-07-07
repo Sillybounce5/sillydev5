@@ -91,6 +91,31 @@ a:active {
 	color: #717171;
 }
 
+#black-footer {
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #000000;
+	text-align: center;
+}
+
+#black-footer p {
+	margin: 0px;
+}
+
+#black-footer p:first {
+	margin-top: -10px;
+}
+
+#black-footer p:last {
+	margin-bottom: -10px;
+}
+
+.footer-link {
+	color: #FFFAFA !important;
+	text-decoration: underline !important;
+}
+
 code {
 	font-family: 'Courier New', Courier, monospace !important;
 	color: gray;
