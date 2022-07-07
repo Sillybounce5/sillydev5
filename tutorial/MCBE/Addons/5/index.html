@@ -154,21 +154,21 @@ $("#contents-placeholder").load("../contents.html");
 <h2>Make item behaviour</h2>
 <p>To make minecraft items you will need to go into the BEH folder that you created in step 1 and create a folder named <strong>items</strong> inside this folder you will need to create a file called <strong>{Item Name}.item.json</strong>. Open the file and paste this template in:</p>
 <p>
-		{<br>
-			"format_version": "1.10",<br>
-			"minecraft:item": {<br>
-				"description": {<br>
-					"identifier": "my:item",<br>
-				},<br>
-				"components": {<br>
-					"minecraft:hand_equipped": false,<br>
-					"minecraft:stacked_by_data": true,<br>
-					"minecraft:foil": false,<br>
-					"minecraft:max_stack_size": 64,<br>
-					"minecraft:max_damage": 10<br>
-				}<br>
-			}<br>
-		}<br>	
+	⁣{<br>
+	    "format_version": "1.10",<br>
+	    "minecraft:item": {<br>
+		    description": {<br>
+			    "identifier": "my:item",<br>
+		    },<br>
+		    "components": {<br>
+			    "minecraft:hand_equipped": false,<br>
+			    "minecraft:stacked_by_data": true,<br>
+			    "minecraft:foil": false,<br>
+			    "minecraft:max_stack_size": 64,<br>
+			    "minecraft:max_damage": 10<br>
+		    }<br>
+	    }<br>
+    }<br>	
 </p>
 <p>Inside the components section are the necessary components needed for items, but more components can be added to customize your item such as the ones listed <strong><a href="https://docs.microsoft.com/en-us/minecraft/creator/reference/content/itemreference/examples/itemcomponentlist">here</a></strong></p>
 <p>The "identifier" variable is what the game uses to identify the item (This is not the items display name) for example, dirt uses the identifier "minecraft:dirt". But you cannot use "minecraft:" at the start of the identifier, you have to use your own starter, such as "sillydev5:", and try to keep it the same on all items, blocks, and mobs</p>
@@ -176,32 +176,32 @@ $("#contents-placeholder").load("../contents.html");
 <p>Open your chosen photo editor and create a 16x16 texture for your item and save it to RES/textures/items/{Item Name}.png (Make sure it has a transparent background)</p>
 <p>Create a file called <strong>item_texture.json</strong> in RES/textures and paste in:</p>
 <p>
-		{
-			"resource_pack_name": "Cool Pack",
-			"texture_name": "atlas.items",
-			"texture_data": {
-				"{your item name here}": {
-					"textures": "textures/items/{your item name here}"
-				}
-			}
-		}		
+		{<br>
+			"resource_pack_name": "Cool Pack",<br>
+			"texture_name": "atlas.items",<br>
+			"texture_data": {<br>
+				"{your item name here}": {<br>
+					"textures": "textures/items/{your item name here}"<br>
+				}<br>
+			}<br>
+		}		<br>
 </p>
 <p>This file defines shortcuts to the item textures</p>
 <p>Now create a new file called <strong>{Item Name}.json</strong> at RES/items and paste in:</p>
 <p>
-		{
-			"format_version": "1.10",
-			"minecraft:item": {
-				"description": {
-					"identifier": "my:item",
-					"category": "Nature"
-				},
-				"components": {
-					"minecraft:icon": "{your item name here}",
-					"minecraft:render_offsets": "tools"
-				}
-			}
-		}
+		{<br>
+			"format_version": "1.10",<br>
+			"minecraft:item": {<br>
+				"description": {<br>
+					"identifier": "my:item",<br>
+					"category": "Nature"<br>
+				},<br>
+				"components": {<br>
+					"minecraft:icon": "{your item name here}",<br>
+					"minecraft:render_offsets": "tools"<br>
+				}<br>
+			}<br>
+		}<br>
 			
 </p>
 <br>
