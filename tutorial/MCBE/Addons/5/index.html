@@ -136,7 +136,7 @@
 	<div class="Title">
     	<div class="jumbotron"
 					style="color: white !important; background-color: transparent !important; text-align: center !important; padding-bottom: 0px !important; justify-content: center;">
-					<h1><br>Exporting Addons<br><br></h1>
+					<h1><br>Custom Items<br><br></h1>
 		</div>
 	</div>
 <div class="text">
@@ -151,10 +151,29 @@ $("#contents-placeholder").load("../contents.html");
 });
 </script>
 <!--end of Contents-->
-<h2>How to export addons</h2>
-<p>Exporting addons is a simple process: Compress the RES and BEH folders into one zip file, and rename the zip file to <strong>{Addon Name}.mcaddon</strong></p>
-<h2>How to import addons to Minecraft</h2>
-<p>Importing the addons is usually as simple as running the file, but in some cases you may have to manually import them, this requires compressing the contents (not the folders themselves) for the RES and BEH folders individually, renaming the zip files to <strong>{Addon Name}BEH/RES.mcpack</strong>, and moving the files to <strong>{Minecraft Location}/resource_packs</strong> or <strong>{Minecraft Location}/behavior_packs</strong></p>
+<h2>How to make minecraft items</h2>
+<p>To make minecraft items you will need to go into the BEH folder that you created in step 1 and create a folder named <strong>items</strong> inside this folder you will need to create a file called <strong>{Item Name}.item.json</strong>. Open the file and paste this template in:</p>
+<pre>
+	<code class="nowrap">
+		{
+			"format_version": "1.10",
+			"minecraft:item": {
+				"description": {
+					"identifier": "my:item",
+				},
+				"components": {
+					"minecraft:hand_equipped": false,
+					"minecraft:stacked_by_data": true,
+					"minecraft:foil": false,
+					"minecraft:max_stack_size": 64,
+					"minecraft:max_damage": 10
+				}
+			}
+		}		
+	</code>
+</pre>
+<br>
+
 <br>
 <strong><a href="../5/">Next Page: Custom Item</a></strong>
 <br><br>

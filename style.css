@@ -35,6 +35,11 @@
   border-style:hidden;
   background-color: RoyalBlue;
 }
+
+.wrap{
+	white-space: pre-wrap;
+}
+
 .type{
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid #202020; /* The typwriter cursor */
