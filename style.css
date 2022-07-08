@@ -207,58 +207,32 @@ text {
 	padding-right: 80px;
 }
 
-/* The dropdown container */
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
 
-/* Dropdown button */
-.dropdown .dropbtn {
-  font-size: 26px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 24px 26px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
-}
+ul li ul {
+	background: orange;
+	visibility: hidden;
+	opacity: 0;
+	min-width: 5rem;
+	position: absolute;
+	transition: all 0.5s ease;
+	margin-top: 1rem;
+	left: 0;
+	display: none;
+  }
+  
+  ul li:hover > ul,
+  ul li ul:hover {
+	visibility: visible;
+	opacity: 1;
+	display: block;
+  }
+  
+  ul li ul li {
+	clear: both;
+	width: 100%;
+  }
 
-/* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: darkblue;
-}
 
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 260px;
-  box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.2);
-  z-index: 2;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 22px 26px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
 /* Style all font awesome icons */
 .fa {
   padding: 20px;
