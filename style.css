@@ -209,13 +209,15 @@ code {
 
 @media only screen and (max-width: 1080px) {
 	.textnews {
-	  font-size: 2vw;
+	  font-size: 3vw;
+	  padding-left: 80px;
 	}
   }
   
   @media only screen and (max-width: 500px) {
 	.textnews {
-	  font-size: 4vw;
+	  font-size: 6vw;
+	  padding-left: 40px;
 	}
   }
 
