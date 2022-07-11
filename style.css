@@ -185,6 +185,16 @@ code {
 	padding-right: 80px;
 }
 
+.textnews {
+	border-style: hidden;
+	border-radius: 25px;
+	color: white !important;
+	justify-content: start;
+	text-align: left !important;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
 @media only screen and (max-width: 1080px) {
 	.text {
 	  font-size: 1.25vw;
@@ -194,6 +204,18 @@ code {
   @media only screen and (max-width: 500px) {
 	.text {
 	  font-size: 3vw;
+	}
+  }
+
+@media only screen and (max-width: 1080px) {
+	.textnews {
+	  font-size: 2vw;
+	}
+  }
+  
+  @media only screen and (max-width: 500px) {
+	.textnews {
+	  font-size: 4vw;
 	}
   }
 
