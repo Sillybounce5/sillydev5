@@ -195,6 +195,11 @@ code {
 	padding-right: 80px;
 }
 
+.textnews img {
+	justify-content: center;
+	text-align: center !important;
+}
+
 @media only screen and (max-width: 1080px) {
 	.text {
 	  font-size: 1.25vw;
@@ -216,7 +221,7 @@ code {
   
   @media only screen and (max-width: 500px) {
 	.textnews {
-	  font-size: 6vw;
+	  font-size: 4vw;
 	  padding-left: 40px;
 	}
   }
