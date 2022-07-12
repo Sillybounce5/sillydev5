@@ -42,7 +42,11 @@
 	white-space: pre-wrap;
 }
 
-
+.newsimage {
+	justify-content: center;
+	text-align: center;
+	width: 80%;
+}
 
 .type{
   overflow: hidden; /* Ensures the content is not revealed until the animation */
