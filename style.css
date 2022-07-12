@@ -183,6 +183,9 @@ code {
   padding-right: 80px;
  }
 
+img #profile {
+	display: inline;
+}
 .text {
 	border-style: hidden;
 	border-radius: 25px;
