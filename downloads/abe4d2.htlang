@@ -1,0 +1,32 @@
+ENG-UK-WEB-REF
+
+### Top Section
+lang.text.name { "English (United Kingdom)" }
+abe4d2.page.name { "vip" }
+vip.page.title { "VIP Membership" }
+vip.menu.bar1 { eng.uk.navbar.top }
+vip.menu.bar2 { eng.uk.navbar.side }
+vip.menu.footer { eng.uk.footer }
+vip.more.button { "Find out more" }
+vip.h5.1.text { "With the Nintendo VIP membership, you will gain access to the best the Switch family has to offer." }
+vip.h3.1.text { "Starting From:" }
+vip.h2.1.text { "£8.99" }
+vip.p.sub.1.text { "per month" }
+
+### Middle Section
+vip.h2.2.text { "Nintendo Switch Online + Expansion Pack" }
+vip.h2.3.text { "Free monthly games" }
+vip.h2.4.text { "Trial any game" }
+vip.h2.5.text { "Discounts on all Nintendo products" }
+vip.p.1.text { "With this membership option, you’ll get access to all the benefits of the standard Nintendo Switch Online membership, in addition to a growing library of classic Nintendo 64 and SEGA Mega Drive games, and access to paid downloadable content for select Nintendo Switch games." }
+vip.p.2.text { "Access 5 free monthly games hand-picked by our eShop team, for quality. Many third-party games will become available for free through this service." }
+vip.p.3.text { "With the VIP Membership you have the ability to trial any game for a short period of time before purchase."  }
+vip.p.4.text { "Recieve up to a 50% discount on certain products available on the My Nintendo Store" }
+vip.p.sub.2.text { "Free monthly games are only playable with an active VIP Membership" }
+vip.p.sub.3.text { "Discounts not available on limited stock items" }
+ 
+### Bottom Section
+vip.h2.6.text { "Membership Options" }
+vip.h2.7.text { "Frequently asked questions" }
+vip.p.5.text { "Choose whichever amount of time suits you" }
+vip.p.6.text { "Got questions about Nintendo VIP" }
